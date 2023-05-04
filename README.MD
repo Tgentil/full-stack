@@ -36,10 +36,10 @@ Para configurar o ambiente, siga os passos abaixo:
 
 ## Entre no projeto que você quer abrir:
 
-* [aula1](aula1\README.md)
+* [aula1](/aula1/README.md)
 
 
-* [receita](receitas\README.md)
+* [receita](/receitas/README.md)
 
 
 # Autor
