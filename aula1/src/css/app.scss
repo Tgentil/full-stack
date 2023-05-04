@@ -1,0 +1,187 @@
+@import "./quasar.variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.instructions,
+.custom-input,
+.card-contato__nome,
+.card-contato__email,
+.card-contato__fone {
+  font-family: "Open Sans", sans-serif;
+}
+
+.instructions {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 1px solid rgb(0, 153, 255);
+  border-right: 4px solid rgb(0, 153, 255);
+  border-top: 1px solid rgb(0, 153, 255);
+  border-left: 4px solid rgb(0, 153, 255);
+  outline: none;
+  font-size: 1.2rem;
+  width: 30%;
+  padding-left: 10px;
+
+  margin: 16px 0 0 10px;
+  border-radius: 8px;
+
+  &:focus {
+    box-shadow: 0 0 16px rgb(0, 153, 255);
+    border-right-color: rgb(255, 165, 0);
+  }
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.btn-add {
+  background-color: $primary-color;
+  margin-left: 10px;
+  margin-right: 15px;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.btn-remove {
+  background-color: $secondary-color;
+
+  &:hover {
+    background-color: darken($secondary-color, 10%);
+  }
+}
+
+.btn-add,
+.btn-remove {
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.card-contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card-contato__avatar {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-contato__nome {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.card-contato__email,
+.card-contato__fone {
+  font-size: 1rem;
+  color: #666;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .card-contato {
+  background-color: #444;
+}
+
+.dark-mode {
+  .custom-input {
+    color: #fff;
+    background-color: #444;
+    border-color: #f90;
+
+    &:focus {
+      box-shadow: 0 0 16px #f90;
+      border-right: 4px solid rgb(0, 153, 255);
+    }
+  }
+}
+
+.dark-mode #theme-toggle {
+  background-color: #999;
+  color: #fff;
+}
+
+.btn-toggle {
+  background-color: #262626;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-toggle:hover {
+  background-color: #444444;
+}
