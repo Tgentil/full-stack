@@ -2,11 +2,15 @@
 
 Este é o projeto da aula do extensão do curso de Web Full Stack/Hands-on da Universidade do Sul de Santa Catarina (Unisul), ministrado pelo professor [Jean Paul Lopes](https://github.com/jeanpaullopes). O código base para o projeto pode ser encontrado em: https://github.com/jeanpaullopes/extensao23_1_aula1
 
-## Interface
+## Interface aula1
 
 ![Interface do Site](/aula1/src/assets/interface.png)
 
 ![interface DarkMode](/aula1/src/assets/interface2.png)
+
+## Interface receitas
+
+![Interface do Site](/receitas//src/assets/interface.png)
 
 ## Configuração do Ambiente
 
@@ -30,49 +34,14 @@ Para configurar o ambiente, siga os passos abaixo:
 
    Com estes passos, você já pode prosseguir para instalar as dependências do projeto e executar os comandos descritos no restante do README.
 
-## Instalando as dependências
-```bash
-yarn
-# ou
-npm install
-```
+## Entre no projeto que você quer abrir:
 
-### Iniciando a aplicação em modo de desenvolvimento (hot-code reloading, error reporting, etc.)
-
-```bash
-quasar dev
-```
-ou
-```bash
-yarn quasar dev
-```
-ou
-```bash
-npm run dev
-```
-
-Todos os comandos acima iniciam a aplicação em modo de desenvolvimento.
+* [aula1](aula1\README.md)
 
 
-### Verificando os arquivos
-```bash
-yarn lint
-# ou
-npm run lint
-```
+* [receita](receitas\README.md)
 
 
-### Formatando os arquivos
-```bash
-yarn format
-# ou
-npm run format
-```
+# Autor
 
-### Compilando a aplicação para produção
-```bash
-quasar build
-```
-
-### Personalizando a configuração
-Veja [Configurando o quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+* Thiago da Silveira Gentil
